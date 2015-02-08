@@ -12,7 +12,7 @@
     http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included
     ================================================== -->
     <link href="//fonts.googleapis.com/css?family=Raleway:400,200,700" rel="stylesheet" type="text/css">
-    <!-- Fount Awesome -->
+    <!-- Font Awesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css" />
@@ -34,17 +34,14 @@
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description }}">
     <meta name="twitter:image" content="{{ page.imageurl }}">
-  
-    <!-- modernizr
-    ================================================== -->
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
 
 <div class="off-canvas-wrap" data-offcanvas>
-  <div class="inner-wrap"> 
+  <div class="inner-wrap">
     <!-- Add header and nav here  -->
-    
+
         <!--[if lt IE 8]>
             <div data-alert class="alert-box alert radius" class="browsehappy">Please <a href="http://browsehappy.com/">upgrade your browser</a>. <a href="#" class="close">&times;</a></div>
         <![endif]-->
@@ -67,7 +64,7 @@
                 </ul>
             </section>
 
-            <h1><a href="{{ site.url }}">{{ site.brand }}</a></h1>
+            <h1><a href="{{ site.url }}">evan roane</a></h1>
 
         </div>
     </header>
@@ -84,13 +81,12 @@
         <div class="row">
           <section role="main">
             <div class="small-12 columns">
-        
-              {{ content }} 
-           
+
+              {{ content }}
+
             </div>
           </section>
         </div>
-        
 
         <footer class="site-footer row" role="contentinfo">
         <hr/>
@@ -104,10 +100,9 @@
              @{{ site.twitter }}</a>, <a href="https://github.com/{{ site.github }}/">
                 <i class="fa fa-github">
                 </i>
-             @{{ site.github }}</a> {{ site.year }}.</p>
+             {{ site.github }}</a> {{ site.year }}.</p>
           </div>
         </footer>
-
 
       <!-- close the off-canvas menu -->
       <a class="exit-off-canvas"></a>
@@ -115,18 +110,12 @@
       </div>
     </div>
 
-
-    <!-- Loading JavaScripts
-    ================================================== -->
-    <!-- Zepto (http://zeptojs.com/) is great, but I am sticking with jQuery. Sorry! -->
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/script.js"></script>
 
-    <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
