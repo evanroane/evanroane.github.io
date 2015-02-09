@@ -16,14 +16,8 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Ah, the favicon.
-    ================================================== -->
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="shortcut icon" href="favicon.ico">
-
-    <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
-    Twitter: https://dev.twitter.com/docs/cards/types/summary-card
-    ============================== -->
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:site_name" content=" - {{ site.name }}"/>
     <meta property="og:url" content=" - {{ site.url }}"/>
@@ -64,21 +58,19 @@
                 </ul>
             </section>
 
-            <h1><a href="{{ site.url }}">evan roane</a></h1>
+            <h1><a href="{{ site.url }}">Evan Roane</a></h1>
 
         </div>
     </header>
 
-        <!-- Off Canvas Menu -->
         <aside class="right-off-canvas-menu">
-            <!-- navigation list goes here -->
             <ul class="off-canvas-list">
                {% include nav.html %}
             </ul>
         </aside>
 
 
-        <div class="row">
+        <div class="row main-content">
           <section role="main">
             <div class="small-12 columns">
 
@@ -124,7 +116,5 @@
       ga('create', '{{ site.analytics }}', 'auto');
       ga('send', 'pageview');
     </script>
-
-
   </body>
 </html>
