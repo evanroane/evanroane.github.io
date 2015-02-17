@@ -15,7 +15,7 @@ keywords: github pages, Jekyll, foundation 5
 	<div class="medium-9 large-7 small-centered column">
 		<div class="panel radius mvl">
 			<p>
-			Evan Roane is apprentice software developer at Nashville Software School where he focuses on JavaScript and C#. On the side, he works as a tutor assisting students in writing Skills, reading Skills, and standardized test preparation. When Evan is not programming or working, he loves to run, hike, cook, read, and practice yoga.
+			Evan Roane is an apprentice software developer at Nashville Software School where he focuses on JavaScript and C#. On the side, he works as a tutor assisting students in writing Skills, reading Skills, and standardized test preparation. When Evan is not programming or working, he loves to run, hike, cook, read, and practice yoga.
 			</p>
 		</div>
 	</div>
