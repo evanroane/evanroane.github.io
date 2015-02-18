@@ -2,14 +2,14 @@
 layout: post
 title:  "Using Media Queries to Create Print Versions of Web Pages in Jekyll"
 date:   2014-10-16 2:56 pm
-categories: NSS, Media Queries
+categories: NSS
 ---
 
 Sometimes when you create a web page's content, you might intend for certain pages to be printable. You may also wish to specify exactly _how_ the page's content will available to the user in a printable format that removes the style formatting from CSS or SASS while still specifying the font and style of the page's content. The tool that serves this purpose is the CSS media query. For users of Jekyll, there are additional complications when using media queries since Jekyll uses the simplified "Markdown" language to generate the HTML code that the browser actually reads.
 
 __[1.]  Figure Out What You Want__
 
-I recommend using your favorite word processor to play around with your content to see how it fits on a standard page. Think of this as a sketch since you will eventually need to check your printable page in your browser's print preview dialogue.
+I recommend using your favorite text editor to play around with your content to see how it fits on a standard page. Think of this as a sketch since you will eventually need to check your printable page in your browser's print preview dialogue.
 
 __[2.]  Place Media Queries _After_ your regular CSS Code In a Dedicated File__
 

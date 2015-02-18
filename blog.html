@@ -1,0 +1,27 @@
+---
+layout: page
+title: Blog
+---
+<div class="row">
+
+  <div class="large-9 columns" role="content">
+    <ul>
+      {% for post in site.posts %}
+        <li class="no-bull">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <hr/>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- <aside class="large-3 columns">
+    <div class="panel">
+      <h5>Featured</h5>
+      <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
+      <a href="#">Read More →</a>
+    </div>
+  </aside> -->
+</div>
