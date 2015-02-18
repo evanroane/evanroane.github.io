@@ -8,6 +8,16 @@
    color: black;
   }
 
+  .main-content {
+    border: none;
+    border-radius: none;
+    background-color: white;
+  }
+
+  .print-button {
+    visibility: hidden;
+  }
+
   header, footer {
    display: none;
   }
@@ -19,22 +29,34 @@
 
   section#jobs h2, section#education h2, section#community-involvement h2, section#publications h2 {
     font-family: 'EB Garamond', serif;
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 
-  a:link  {
+  a:link {
     color:#000000;
+    text-decoration: none;
   }
 
   a:visited {
     color:#000000;
+    text-decoration: none;
   }
 
-  a:hover   {
+  a:hover {
     color:#000000;
+    text-decoration: none;
   }
 
-  a:active  {
+  a:active {
     color:#000000;
+    text-decoration: none;
   }
- }
+
+  .not-printed {
+    display: none;
+  }
+
+  .print-only {
+    display: inline;
+  }
+}
