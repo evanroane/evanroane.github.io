@@ -6,8 +6,8 @@ section#jobs li, section#education li, section#community-involvement li, section
 }
 
 // Preamble Formatting
-section#preamble h1 {
-  background: none;
+section#preamble h2 {
+  font-family: 'Quattrocento', serif;
   border-bottom: 1px solid #000000;
   line-height: 1;
   margin: 0;
@@ -32,6 +32,7 @@ section#jobs ul li:last-child {
 }
 
 section#jobs h2 {
+  font-family: 'Quattrocento', serif;
   line-height: 1;
   margin: 0;
 }
@@ -69,6 +70,7 @@ section#jobs h2 {
 section#education {}
 
 section#education h2 {
+  font-family: 'Quattrocento', serif;
   line-height: 1;
   margin: 0;
 }
@@ -96,6 +98,7 @@ section#education h2 {
 }
 
 section#community-involvement h2 {
+  font-family: 'Quattrocento', serif;
   line-height: 1;
   margin: 0;
 }
@@ -120,13 +123,7 @@ section#community-involvement .organization {
 // Publications
 
 section#publications h2 {
+  font-family: 'Quattrocento', serif;
   line-height: 1;
   margin: 0;
-}
-
-
-// Italics for publication titles
-
-.pub-title {
-  font-style: italic;
 }
