@@ -1,21 +1,18 @@
 ---
 layout: default
 title: About
-description: This is my site. Welcome.
-keywords: github pages, Jekyll, foundation 5
+description: Evan Roane's Personal Site
+keywords: Software Development
 ---
-<div class="row">
-	<div class="medium-9 large-7 small-centered column">
-		<div class="mbm">
-			<img src="img/roane.png" class="splash-img" />
-		</div>
+
+<div class="row" data-equalizer>
+	<div class="large-6 columns bump">
+		<img src="img/roane.png" class="splash-img" data-equalizer-watch />
 	</div>
-</div>
-<div class="row">
-	<div class="medium-9 large-7 small-centered column">
-		<div class="panel radius mvl">
+	<div class="large-6 columns bump">
+		<div class="panel radius" data-equalizer-watch>
 			<p>
-			Evan Roane is an apprentice software developer at Nashville Software School where he focuses on JavaScript and C#. On the side, he works as a tutor assisting students in writing Skills, reading Skills, and standardized test preparation. When Evan is not programming or working, he loves to run, hike, cook, read, and practice yoga.
+			I am an apprentice software developer at Nashville Software School gaining experience using web technologies including JavaScript, AngularJS, and HTML/CSS. I also create native Windows applications using the C# programming language and Microsoft’s SQL Server. The combination of my experience educating others in forming clear ideas, my practiced communication skills, my abstract problem solving ability honed as a student of philosophy, and my desire to take on new challenges, positions me as an adept junior software developer. When I am not writing code, I love to run, hike, cook, read, and practice yoga.
 			</p>
 		</div>
 	</div>

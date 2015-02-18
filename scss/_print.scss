@@ -1,0 +1,40 @@
+
+// Print styles go here
+@media print {
+
+  body {
+   background-color: #FFFFFF;
+   font-family: 'EB Garamond', serif;
+   color: black;
+  }
+
+  header, footer {
+   display: none;
+  }
+
+  section#preamble h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
+  }
+
+  section#jobs h2, section#education h2, section#community-involvement h2, section#publications h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+  }
+
+  a:link  {
+    color:#000000;
+  }
+
+  a:visited {
+    color:#000000;
+  }
+
+  a:hover   {
+    color:#000000;
+  }
+
+  a:active  {
+    color:#000000;
+  }
+ }

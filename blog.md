@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Blog
-permalink: /blog/
 ---
 
 If you are interested in what is on my mind lately, this is a good place to look.
