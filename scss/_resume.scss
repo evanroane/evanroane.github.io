@@ -1,8 +1,12 @@
 // Browser Formatting for Resume
 
 // Broad Formatting
-section#jobs li, section#education li, section#community-involvement li, section#publications li {
+.solid-bull {
   list-style-type: disc;
+}
+
+.no-bull {
+  list-style-type: none;
 }
 
 // Preamble Formatting
