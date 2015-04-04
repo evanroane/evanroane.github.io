@@ -3,7 +3,7 @@
   Site: evanroane.com
   Twitter: @roanezone
   Github: @evanroane
-  Location: Boston, MA
+  Location: Nashville, TN
 
 /* SITE */
   Standards: HTML5, MD, SCSS/CSS3, JS
