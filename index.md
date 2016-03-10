@@ -12,7 +12,14 @@ keywords: Software Development
 	<div class="large-6 columns bump">
 		<div class="panel radius" data-equalizer-watch>
 			<p>
-			I am a recent graduate from <a href="http://nashvillesoftwareschool.com" target="_blank">Nashville Software School</a> where I gained experience in web technologies including JavaScript, AngularJS, and ASP.NET. I also work on native Windows applications using the C# programming language and Microsoft’s SQL Server. The combination of my experience educating others in forming clear ideas, my practiced communication skills, my abstract problem solving ability honed as a student of philosophy, and my desire to take on new challenges, position me as an adept full-stack junior software developer. When I am not writing code, I love to run, hike, cook, read, practice yoga, and spend time with the people I love.
+			I am a software engineer who loves talking with people and computers. After years of honing my abstract reasoning and writing skills in philosophy and education, I chose to focus on a career in technology. Writing code satisfies my itch to find logical solutions to practical problems.
+			</p>
+			<p>
+			Now, I work for Emma, a cloud-based email marketing platform based in Nashville, Tennessee. I am available for a limited amount of contract work since I love my day job and it is my primary focus.
+			</p>
+			<p>
+			When I am not writing code, I love to run, hike, cook, read, practice yoga, and spend time with the people I love.
+
 			</p>
 		</div>
 	</div>
