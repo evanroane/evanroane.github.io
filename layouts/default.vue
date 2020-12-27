@@ -29,7 +29,12 @@ export default {
   --regular-desktop-min-width: 1025px;
   --tablet-max-width: 1024px;
   --tablet-min-width: 768px;
-
+  --tablet-landscape-min-width: 768px;
+  --tablet-landscape-max-width: 1024px;
+  --phablet-min-width: 481px;
+  --phablet-max-width: 767px;
+  --mobile-min-width: 320px;
+  --mobile-max-width: 480px;
 }
 
 body {
