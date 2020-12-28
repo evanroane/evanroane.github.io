@@ -1,0 +1,37 @@
+:root {
+  --white: rgb(228, 222, 213);
+  --blue: rgb(104, 147, 179);
+  --green: rgb(95, 127, 73);
+  --yellow: rgb(191, 179, 90);
+  --orange: rgb(182, 129, 80);
+  --red: rgb(150, 76, 58);
+  --black: rgb(24, 22, 21);
+  --large-desktop-min-width: 1281px;
+  --regular-desktop-max-width: 1280px;
+  --regular-desktop-min-width: 1025px;
+  --tablet-max-width: 1024px;
+  --tablet-min-width: 768px;
+  --tablet-landscape-min-width: 768px;
+  --tablet-landscape-max-width: 1024px;
+  --phablet-min-width: 481px;
+  --phablet-max-width: 767px;
+  --mobile-min-width: 320px;
+  --mobile-max-width: 480px;
+}
+
+body {
+  background-color: var(--black);
+  font-family: Futura, sans-serif;
+  font-size: 16px;
+  color: var(--white);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
