@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-import NameFan from '~/components/NameFan';
+import NameFan from '~/components/NameFan.vue';
 
 export default {
   components: {
